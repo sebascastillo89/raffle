@@ -1,0 +1,15 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Getting Started: Handling Form Submission</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+<body>
+	<h1>RESULTADOS DEL SORTEO</h1>
+	<h3>DATOS</h3>
+	<p th:utext="${raffle.summary}" />
+	<h3>ENHORABUENA A LOS PREMIADOS</h3>
+    <p th:utext="${raffle.awards}" />
+    <a href="/raffle">Submit another message</a>
+</body>
+</html>
