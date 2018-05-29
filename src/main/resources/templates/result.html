@@ -3,13 +3,31 @@
 <head>
     <title>Getting Started: Handling Form Submission</title>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <link href="/styles.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
-	<h1>RESULTADOS DEL SORTEO</h1>
-	<h3>DATOS</h3>
-	<p th:utext="${raffle.summary}" />
-	<h3>ENHORABUENA A LOS PREMIADOS</h3>
-    <p th:utext="${raffle.awards}" />
-    <a href="/raffle">Submit another message</a>
+	
+	<div class="left" style="width: 60%">
+		<h1>RESULTADOS DEL SORTEO</h1>
+	</div>
+	<div class="left" style="width: 40%">
+		<img class="right" height="50" src="/cabecera.png"/>
+	</div>
+	<div class="clearAll"/>
+	<div class="left" style="width: 60%">		
+		<div class="marginLeftMedium">
+			<h3>DATOS</h3>
+			<p class="resumen" th:utext="${raffle.summary}" />
+		    <div class="resize marginTopMedium" style="max-height: 280px; min-height: 40px;">
+		    	<h3>ENHORABUENA A LOS PREMIADOS</h3>
+		    	<p class="destacado" th:utext="${raffle.awards}" />
+		    </div>
+		</div>
+	</div>
+	<div class="left" style="width: 40%; min-width:250px;">
+		<img class="right marginTopBig marginRightBig" height="300" src="/winner.jpg"/>
+	</div>
+	<div class="clearAll marginBottomMedium"/>
+    <a href="/raffle">&lt;&lt; Volver</a>
 </body>
 </html>

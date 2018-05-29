@@ -1,0 +1,121 @@
+html{
+	font-family: verdana;
+}
+
+body{
+	margin: 10px 45px;
+	padding: 10px;
+}
+
+h1{
+	font-size: 26px;
+	color: #71ed8a
+}
+
+h3{
+	font-size: 14px;
+}
+
+h3.winnerText{
+
+}
+
+img{
+	max-height: 90%;
+	max-width: 90%;
+}
+
+input, textarea{
+	border:none;
+	background-color: #e5e6e8;
+	border-left: 3px solid #71ed8a;
+	padding: 8px;
+	margin: 15px 10px;
+	outline: 0px;
+	font-size: 14px;
+	max-height: 95%;
+	max-width: 95%;
+}
+
+textarea.resizeNone{
+	resize: none;
+}
+
+textarea:focus{
+	border-left: 3px solid #29c7ad;
+	outline: 0px;
+}
+
+p.destacado{
+	font-size: 50px;
+	color: #0fa6f5;
+}
+
+p.resumen{
+	font-size: 18px;
+	margin: 15px 0px;
+}
+
+button, button:focus{
+	color: white;
+	font-size: 14px;
+	font-weight: bold;
+	background-color: #71ed8a;
+	border: none;
+	padding: 15px;
+	cursor: pointer;
+}
+
+button.cancel{
+	background-color: #ff4242;
+}
+
+.right{
+	float: right;
+}
+
+.left{
+	float: left;
+}
+
+.clearAll{
+	clear: both;
+}
+
+.marginLeftMedium{
+	margin-left: 30px;
+}
+
+.marginRightMedium{
+	margin-right: 30px;
+}
+
+.marginRightBig{
+	margin-right: 90px;
+}
+
+
+.marginTopMedium{
+	margin-top: 30px;
+}
+
+.marginTopBig{
+	margin-top: 60px;
+}
+
+.marginBottomMedium{
+	margin-bottom: 30px;
+}
+
+.fontSmall{
+	font-size: 12px;
+}
+
+.resize{
+	border: 2px dotted #71ed8a;
+    padding: 20px; 
+    width: 90%;
+    height: 40px;
+    resize: vertical;
+    overflow: hidden;
+}

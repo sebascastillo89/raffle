@@ -3,21 +3,38 @@
 <head>
     <title>Getting Started: Handling Form Submission</title>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <link href="/styles.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
-	<h1>SORTEO</h1>
-	<h3>Instrucciones</h3>
-	- Indique el nombre de los premios que desea sortear. Un premio por linea y por orden de importancia.
-	<br/>
-	- Indique el nombre de todos los participantes en el sorteo y, separado por una coma, el numero de tickets del que disponen. (p.e: "Barbara,3")
-	<br/>
-	- Pulse SORTEAR
-    <br/>
-    <br/>
-    <form action="#" th:action="@{/raffle}" th:object="${raffle}" method="post">
-    	<p>Que sorteamos??: <br/><textarea  rows="4" cols="50" th:field="*{prizes}" /></p>
-    	<p>Quien participa??: <br/><textarea  rows="15" cols="50" th:field="*{candidates}" /></p>
-    	<p><input type="submit" value="SORTEAR" /> <input type="reset" value="BORRAR" /></p>
-    </form>
+	<div class="right" style="width: 30%">
+		<img class="right" height="50" src="/cabecera.png"/>
+	</div>
+	<div class="left" style="width: 70%">
+		<h1>SORTEO</h1>
+		<h3>Instrucciones</h3>
+		<div class="fontSmall">
+			- Indique el nombre de los premios que desea sortear. Un premio por linea y por orden de importancia.
+			<br/>
+			- Indique el nombre de todos los participantes en el sorteo y, separado por una coma, el numero de tickets del que disponen. (p.e: "Barbara,3")
+			<br/>
+			- Pulse SORTEAR
+	    	<br/>
+	    	<br/>
+    	</div>
+    </div>
+    <div class="clearAll"/>
+    <div class="left" style="width: 40%">
+	    <form action="#" th:action="@{/raffle}" th:object="${raffle}" method="post">
+	    	<p>&iquest;Qu&eacute; sorteamos? <br/><textarea class="resizeNone" rows="1" cols="55" th:field="*{prizes}" /></p>
+	    	<p>&iquest;Quien participa? <br/><textarea class="resizeNone" rows="10" cols="55" th:field="*{candidates}" /></p>
+	    	<div id="botonera">	
+	    		<button class="right cancel marginLeftMedium marginRightMedium" type="reset" value="BORRAR">Borrar</button>
+	    		<button class="right" type="submit" value="SORTEAR">Sortear</button>
+	    	</div>
+	    </form>
+	</div>
+	<div class="left" style="width: 60%; min-width: 450px;">
+		<img class="right marginTopBig marginRightMedium" height="270" src="/beach.jpg"/>
+	</div>
 </body>
 </html>
