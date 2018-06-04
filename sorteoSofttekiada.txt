@@ -1,0 +1,45 @@
+Emilio Alarcón,11428
+José Andrés Rodríguez,9246
+Mariano de Armijo Macia,7519
+Juan José Torres Garrido,6308
+Cesar Sapetti,5124
+Jose Luis Castro Lago,4100
+Luis Murciano Renedo,4000
+Alvaro Gómez Bellas,4000
+Francisco Javier Ruiz Toledo,3900
+Jose Manuel Prada,3500
+Victor Arce Calisaya,3500
+Alberto Escribano Castejón,3100
+Rubén Cano Montero,3016
+Armindo Caamaño,3000
+David León,2263
+Manuel Toro Rivas,2100
+Daniel Díaz Carrete,1931
+Jose Miguel Serrano Raspeño,1800
+Jose Angel Rodriguez Rey,1700
+Montserrat Sánchez,1600
+Javier Benitez Cabanillas,1367
+Ildefonso Fernández,1200
+Naiara Zabaleta,1200
+Antonio Gómez Yunta,1151
+Israel Quiñonero Fernández,1100
+Jose Manuel mancha Triguero,1000
+Maria Asua,1000
+Pako Ortiz,1000
+Raúl Iglesias,1000
+Óscar Guevara,1000
+Miguel Pérez Ortega,900
+Diana Sánchez Araujo,800
+Jose Vicente Moreno Sebastian,800
+Rubén Troncoso,700
+Ana Sanz Esteban,500
+Pedro Redondo,500
+Alejandro Martín Fernández,200
+Héctor Pérez,200
+Iván Minsut,200
+Jose David Cortés,200
+Jose Luis Gutierrez Portas,200
+Jose Manuel Mancebo,200
+Óscar Lijo,200
+Alvaro de la Mata,200
+Ramón Isasi,100
